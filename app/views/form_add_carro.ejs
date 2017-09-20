@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="utf-8"/>
+			<title>Formulário de cadastro de carros</title>
+		</head>
+	<body>
+
+		<h1>Adicionar Carro</h1>
+		<br />
+
+
+		<form action="/carros/salvar" method="post">
+
+            <div>
+            <label>Marca</label>
+            <input type="text" name="marca" >
+            </div>
+
+            <div>
+            <label>Modelo</label>
+            <input type="text" name="modelo">
+            </div>
+
+						<div>
+						<label>Cor</label>
+						<input type="text" name="cor">
+						</div>
+
+						<div>
+						<label>Placa</label>
+						<input type="text" name="placa">
+						</div>
+
+            <input type="submit" value="Cadastrar">
+
+    </form>
+
+	</body>
+</html>

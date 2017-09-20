@@ -1,0 +1,24 @@
+{
+  "name": "nac",
+  "version": "1.0.0",
+  "description": "Nac 1, nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nac",
+    "fiap",
+    "node"
+  ],
+  "author": "Gustavo Torrente",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "consign": "^0.1.6",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "mysql": "^2.14.1",
+    "nodemon": "^1.12.1"
+  }
+}
